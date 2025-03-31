@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public interface TarefaComplexa {
+public interface TarefaComplexa extends TarefaSimples {
+    int getPrioridade();
+    void setPrioridade(int prioridade);
 }
