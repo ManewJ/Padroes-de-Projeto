@@ -1,5 +1,5 @@
 
-public class Tarefa implements ITarefa {
+public class Tarefa implements TarefaSimples {
     private String descricao;
     private boolean concluida;
 

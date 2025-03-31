@@ -1,6 +1,5 @@
-public interface ITarefa {
+public interface TarefaSimples {
     String getDescricao();
     boolean isConcluida();
     void marcarComoConcluida();
-    String toString();
 }
